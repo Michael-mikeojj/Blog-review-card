@@ -1,10 +1,51 @@
 body {
     background-color: hsl(47, 88%, 63%);
-    width: auto;
 }
 main {
     width: auto;
-    max-width: 500px;
-    margin: 50px auto auto;
+    max-width: 340px;
+    margin: 0 auto;
     background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px;
+    border: solid black 1px;
+    border-radius: 20px;
+}
+/* the class used to style the main pic */
+.pic {
+    border-radius: 10px;
+
+}
+.learning {
+    text-align: center;
+    width: 70px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: hsl(47, 88%, 63%);
+}
+.description {
+    color:  hsl(0, 0%, 50%);
+    font-size: 16px;
+    font-weight: 500;
+}
+/* the class used to style the avatar and the name to use flexbox */
+.avatar-details {
+    display: flex;
+    width: 100%;
+}
+.avatar {
+    width: 40px;
+    height: 40px
+}
+h2 {
+    font-weight: 800;
+    font-family: "Figtree", sans-serif;
+}
+p {
+    font-weight: 550;
+    font-family: "Figtree", sans-serif;
+}
+.avatar-name {
+    margin-left: 10px;
+    font-weight: 750;
 }
